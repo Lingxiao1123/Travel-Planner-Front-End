@@ -1,0 +1,59 @@
+.left-side {
+    position: relative;
+    padding: 5px;
+    /*padding-left: 10px;*/
+    /*padding-right: 200px;*/
+    /*width:200px;*/
+    height:870px;
+    overflow-y: auto;
+}
+
+.middle-side {
+    position: relative;
+    padding: 5px;
+    /*padding-left: -10px;*/
+    height: 900px;
+    overflow: scroll;
+}
+
+.right-side {
+    position: relative;
+    /*height: 890px;*/
+}
+
+.background{
+    margin:0;
+    padding:0;
+    background: url("../assets/loginImages/login4.jpg") no-repeat center 0px;
+    background-size: cover;
+}
+
+.afterlogin{
+    padding: 10px;
+    maxHeight: calc(100% - 64px);
+    background-color:#F8F8F8;
+    overflow-y: hidden;
+}
+
+.oneDayRecommendationButton{
+    /*margin-top: 10px;*/
+    /*margin-left: 5px;*/
+    positon:absolute;
+    right:-630%;
+    z-index: 10;
+}
+
+.ThreeDayRecommendationButton{
+    /*margin-top: 10px;*/
+    /*margin-left: 5px;*/
+    position:absolute;
+    right:-760%;
+    z-index: 10;
+}
+
+.recommendation{
+    position:absolute;
+    z-index:10;
+    display: inline;
+    transform:translateY(-190%);
+}

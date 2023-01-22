@@ -1,0 +1,14 @@
+.back {
+    /*position:relative;*/
+    /*right:80px;*/
+    right:0px;
+}
+
+.add {
+    /*left:80px;*/
+    left:5%;
+}
+
+.meta{
+    padding-top: 10px;
+}

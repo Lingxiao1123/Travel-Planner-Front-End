@@ -1,0 +1,14 @@
+.headerbuttom{
+    position: relative;
+    right:-75%;
+}
+
+.inlineleft{
+    float:left;
+    display: inline;
+}
+
+.inlineright{
+    float:right;
+    display: inline;
+}
